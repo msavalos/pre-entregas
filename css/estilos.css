@@ -129,7 +129,16 @@ p{
 .h2__servicios{
     font-weight: bold;
 }
-
+.servicios1{
+    display: flex;
+    justify-content: center;
+    height: 300px;
+}
+.d-block-w-100{
+    height: 500px;
+    width: 1000px;
+    padding-left: 350px;
+}
 
 /* SECCIÓN NOVEDADES*/
 #noticias{
@@ -208,12 +217,12 @@ p{
 }
 .borrar__form a:hover{
     color: black;
-    background-color: grey;
+    background-color: rgb(128, 128, 128);
 }
 .enviar__form{
     transition: color
 }
 .enviar__form a:hover{
     color: black;
-    background-color: grey;
+    background-color: rgb(128, 128, 128);
 }
