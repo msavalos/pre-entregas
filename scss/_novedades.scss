@@ -1,0 +1,59 @@
+#noticias{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    column-gap: 100px;
+    grid-template-areas: 
+    "div noticia__uno"
+    "div noticia__dos"
+    "div noticia__tres";
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .div{
+      grid-area: 1fr;
+  }
+  .div{
+      grid-area: 2fr;
+  }
+  .div{
+      grid-area: 3fr;
+  }
+  .noticia__uno{
+      grid-area: 1fr;
+      justify-self: start;
+      align-self: center;
+  }
+  .noticia__dos{
+      grid-area: 2fr;
+      justify-self: center;
+      align-self: center;
+  }
+  .noticia__tres{
+      grid-area: 3fr;
+      justify-self: end;
+      align-self: center;
+  }
+  
+  .novedades__previsional__img{
+      height: 250px;
+      width: 250px;
+  }
+  .novedades__previsional__texto{
+      width: 400px;
+  }
+  .novedades__penal__img{
+      height: 250px;
+      width: 250px;
+  }
+  .novedades__penal__texto{
+      width: 400px;
+  }
+  .novedades__civil__img{
+      height: 250px;
+      width: 250px;
+  }
+  .novedades__civil__texto{
+      width: 400px;
+  }

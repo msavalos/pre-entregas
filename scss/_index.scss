@@ -1,0 +1,36 @@
+.equipo{
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+}
+.img__equipo{
+    padding: 10px;
+    margin: 10px;
+    width: 500px;
+    height: 400px;
+}
+#titulo__index{
+    font-family: 'Birthstone', cursive;
+    font-size: 50px;
+}
+.parrafo__index{
+    font-weight: normal;
+    font-size: 29px;
+}
+#promo{
+    display: flex;
+    flex: 2;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 300px;
+}
+.texto__promo{
+    font-size: 30px;
+}
+.img__promo{
+    height: 150px;
+    width: 550px;
+    align-items: center;
+    padding-top: 50px;
+    margin-top: 50px;
+}

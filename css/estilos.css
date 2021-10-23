@@ -1,231 +1,206 @@
-@media screen and (min-width: 320px){
-    .body{
-        background-color: #FFB097;
-        font-family: 'Scheherazade New', serif;
-    }
-}
+.header {
+  display: block;
+  text-align: center;
+  background-color: white; }
 
-/* Sección HEADER*/
-.header{
-    display: block;
-    text-align: center;
-    background-color: white;
-}
-.header__logo__img{
-    width: 100px;
+.header__logo__img {
+  width: 100px; }
 
-}
-.header__logo__texto{
-    color: black;
-    font-size: 20px;
+.header__logo__texto {
+  color: black;
+  font-size: 20px; }
 
-}
-.header__secciones{
-    text-align: center;
-    position: sticky;
-}
+.header__secciones {
+  text-align: center;
+  position: sticky; }
 
-.nav-item{
-    display: inline-block;
-    width: 15%;
-    text-align: center;
-    font-size: 25px;    
-    color: black;
-    transition: color 2s;
-}
-.nav-item a:hover{
+.nav-item {
+  display: inline-block;
+  width: 15%;
+  text-align: center;
+  font-size: 25px;
+  color: black;
+  transition: color 2s; }
+
+.nav-item a:hover {
+  background-color: #FFB097;
+  color: black; }
+
+#footer {
+  background-image: linear-gradient(#FFB097, white);
+  height: 30vh;
+  border: hidden;
+  margin-top: 10px;
+  padding-top: 150px; }
+
+.datos__footer {
+  list-style: none;
+  background-color: white;
+  font-size: 18px;
+  line-height: 1.6; }
+
+.equipo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.img__equipo {
+  padding: 10px;
+  margin: 10px;
+  width: 500px;
+  height: 400px; }
+
+#titulo__index {
+  font-family: 'Birthstone', cursive;
+  font-size: 50px; }
+
+.parrafo__index {
+  font-weight: normal;
+  font-size: 29px; }
+
+#promo {
+  display: flex;
+  flex: 2;
+  flex-direction: row;
+  justify-content: flex-start;
+  height: 300px; }
+
+.texto__promo {
+  font-size: 30px; }
+
+.img__promo {
+  height: 150px;
+  width: 550px;
+  align-items: center;
+  padding-top: 50px;
+  margin-top: 50px; }
+
+.abogados {
+  height: 300px; }
+
+p {
+  font-weight: normal;
+  font-size: 30px;
+  color: black;
+  text-decoration: none; }
+
+.abogado1 {
+  font-size: 25px; }
+
+.abogado2 {
+  font-size: 25px; }
+
+.abogada3 {
+  font-size: 25px; }
+
+.h2__servicios {
+  font-weight: bold; }
+
+.servicios {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+#carouselExampleControls {
+  padding: 5rem; }
+
+.d-block-w-100 {
+  height: 400px;
+  width: 900px;
+  padding-left: 300px; }
+
+#noticias {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  column-gap: 100px;
+  grid-template-areas: "div noticia__uno"
+ "div noticia__dos"
+ "div noticia__tres";
+  justify-items: center;
+  justify-content: center;
+  align-items: center; }
+
+.div {
+  grid-area: 1fr; }
+
+.div {
+  grid-area: 2fr; }
+
+.div {
+  grid-area: 3fr; }
+
+.noticia__uno {
+  grid-area: 1fr;
+  justify-self: start;
+  align-self: center; }
+
+.noticia__dos {
+  grid-area: 2fr;
+  justify-self: center;
+  align-self: center; }
+
+.noticia__tres {
+  grid-area: 3fr;
+  justify-self: end;
+  align-self: center; }
+
+.novedades__previsional__img {
+  height: 250px;
+  width: 250px; }
+
+.novedades__previsional__texto {
+  width: 400px; }
+
+.novedades__penal__img {
+  height: 250px;
+  width: 250px; }
+
+.novedades__penal__texto {
+  width: 400px; }
+
+.novedades__civil__img {
+  height: 250px;
+  width: 250px; }
+
+.novedades__civil__texto {
+  width: 400px; }
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 500px;
+  text-align: center;
+  font-size: 20px;
+  margin-left: 500px;
+  margin-right: 500px; }
+
+.borrar__form {
+  transition: color; }
+
+.borrar__form a:hover {
+  color: black;
+  background-color: gray; }
+
+.enviar__form {
+  transition: color; }
+
+.enviar__form a:hover {
+  color: black;
+  background-color: gray; }
+
+@media screen and (min-width: 320px) {
+  .body {
     background-color: #FFB097;
-    color: black;
-}
-#promo{
-    display: flex;
-    flex: 2;
-    flex-direction: row;
-    justify-content: flex-start;
-    height: 300px;
-}
-.texto__promo{
-    font-size: 30px;
-}
-.img__promo{
-    height: 150px;
-    width: 550px;
-    align-items: center;
-    padding-top: 50px;
-    margin-top: 50px;
-}
-
-/* Sección FOOTER*/
-#footer{
-    background-image: linear-gradient(#FFB097, white);
-    height: 30vh;
-    border: hidden;
-    margin-top: 10px;
-    padding-top: 150px;
-}
-.datos__footer{
-    list-style: none;
-    background-color: white;
-    font-size: 18px;
-    line-height: 1.6;
-}
+    font-family: 'Scheherazade New', serif; } }
 
 /* H's */
 h1 {
-    color: black;
-    text-align: center;
-}
-h2{
-    color: black;
-    text-align: justify;
-    font-size: 30px;
-}
+  color: black;
+  text-align: center; }
 
-
-/* SECCIÓN INDEX*/
-.equipo{
-    display: flex;
-    flex-direction: row; 
-    justify-content: center;
-}
-.img__equipo{
-    padding: 10px;
-    margin: 10px;
-    width: 500px;
-    height: 400px;
-}
-#titulo__index{
-    font-family: 'Birthstone', cursive;
-    font-size: 50px;
-}
-.parrafo__index{
-    font-weight: normal;
-    font-size: 29px;
-}
-
-/* SECCIÓN NOSOTROS*/
-.abogados{
-    height: 300px;
-}
-p{
-    font-weight: normal;
-    font-size: 30px;
-    color: black;
-    text-decoration: none;
-}
-.abogado1{
-    font-size: 25px;
-}
-.abogado2{
-    font-size: 25px;
-}
-.abogada3{
-    font-size: 25px;
-}
-
-
-
-/* SECCIÓN SERVICIOS*/
-.h2__servicios{
-    font-weight: bold;
-}
-.servicios{
-    display: flex;
-    flex-direction: row; 
-    justify-content: center;
-}
-#carouselExampleControls{
-    padding: 5rem;
-}
-.d-block-w-100{
-    height: 400px;
-    width: 900px;
-    padding-left: 300px;
-}
-
-/* SECCIÓN NOVEDADES*/
-#noticias{
-  display: grid;
-  grid-template-columns: repeat(3,1fr);
-  grid-template-rows: repeat(3,1fr);
-  column-gap: 100px;
-  grid-template-areas: 
-  "div noticia__uno"
-  "div noticia__dos"
-  "div noticia__tres";
-  justify-items: center;
-  justify-content: center;
-  align-items: center;
-}
-.div{
-    grid-area: 1fr;
-}
-.div{
-    grid-area: 2fr;
-}
-.div{
-    grid-area: 3fr;
-}
-.noticia__uno{
-    grid-area: 1fr;
-    justify-self: start;
-    align-self: center;
-}
-.noticia__dos{
-    grid-area: 2fr;
-    justify-self: center;
-    align-self: center;
-}
-.noticia__tres{
-    grid-area: 3fr;
-    justify-self: end;
-    align-self: center;
-}
-
-.novedades__previsional__img{
-    height: 250px;
-    width: 250px;
-}
-.novedades__previsional__texto{
-    width: 400px;
-}
-.novedades__penal__img{
-    height: 250px;
-    width: 250px;
-}
-.novedades__penal__texto{
-    width: 400px;
-}
-.novedades__civil__img{
-    height: 250px;
-    width: 250px;
-}
-.novedades__civil__texto{
-    width: 400px;
-}
-
-/* SECCIÓN CONSULTANOS*/
-.formulario{
-    display: flex;     
-    flex-direction: column; 
-    justify-content: center;
-    height: 500px;
-    text-align: center;
-    font-size: 20px;
-    margin-left: 500px;
-    margin-right: 500px;
-}
-.borrar__form{
-    transition: color
-}
-.borrar__form a:hover{
-    color: black;
-    background-color: rgb(128, 128, 128);
-}
-.enviar__form{
-    transition: color
-}
-.enviar__form a:hover{
-    color: black;
-    background-color: rgb(128, 128, 128);
-}
+h2 {
+  color: black;
+  text-align: justify;
+  font-size: 30px; }
