@@ -129,13 +129,7 @@ p{
 .h2__servicios{
     font-weight: bold;
 }
-.carousel-inner{
-    align-items: center;
-}
-.d-block__w-100{
-    width: 800px;
-    align-items: center;
-}
+
 
 /* SECCIÓN NOVEDADES*/
 #noticias{
