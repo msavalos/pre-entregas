@@ -114,7 +114,9 @@ p {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
   column-gap: 100px;
-  grid-template-areas: "div col__1" "div col__2" "div col__3";
+  grid-template-areas: "div col__1"
+ "div col__2"
+ "div col__3";
   justify-items: center;
   justify-content: center;
   align-items: center; }
