@@ -1,33 +1,49 @@
-#noticias{
-    display: grid;
+h1{
+    padding: 4vh;
 }
 
-  .novedades__previsional__img{
-      height: 250px;
-      width: 250px;
-  }
-  .novedades__previsional__texto{
-      width: 400px;
-      text-decoration: none;
-  }
-  .novedades__penal__img{
-      height: 250px;
-      width: 250px;
-  }
-  .novedades__penal__texto{
-      width: 400px;
-      text-decoration: none;
-  }
-  .novedades__civil__img{
-      height: 250px;
-      width: 250px;
-  }
-  .novedades__civil__texto{
-      width: 400px;
-      text-decoration: none;
-  }
-  
-  .col{
+.conj_noticias{
+    display: flex;    
+    padding: 0 20vh;
+    gap: 20vh;
+}
+
+.foto{
+    height: 350px;
+    width: 350px;
+    margin-bottom: 3vh;
+    margin-top: 7vh;
+}
+
+
+
+a{
     text-decoration: none;
-  }
+}
+//    .novedades__previsional__img{
+//        height: 250px;
+//        width: 250px;
+//    }
+//    .novedades__previsional__texto{
+//        width: 400px;
+//        text-decoration: none;
+//    }
+//    .novedades__penal__img{
+//        height: 250px;
+//        width: 250px;
+//     }
+//    .novedades__penal__texto{
+//        width: 400px;
+//         text-decoration: none;
+//     }
+
+//     .novedades__civil__img{
+//         height: 250px;
+//         width: 250px;
+//     }
+//     .novedades__civil__texto{
+//         width: 400px;
+//         text-decoration: none;
+//     }
+
   
