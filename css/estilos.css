@@ -76,13 +76,15 @@
   margin-top: 50px; }
 
 .abogados {
-  height: 300px; }
+  height: 300px;
+  padding-left: 10px; }
 
 p {
   font-weight: normal;
   font-size: 30px;
   color: black;
-  text-decoration: none; }
+  text-decoration: none;
+  padding-left: 10px; }
 
 .abogado1 {
   font-size: 25px; }
@@ -93,8 +95,13 @@ p {
 .abogada3 {
   font-size: 25px; }
 
+.img__servicios {
+  padding-top: 50px;
+  padding-bottom: 30px; }
+
 .h2__servicios {
-  font-weight: bold; }
+  font-weight: bold;
+  padding-left: 10px; }
 
 .servicios {
   display: flex;
@@ -166,7 +173,8 @@ h2 {
   text-align: justify;
   font-size: 30px;
   padding-top: 50px;
-  padding-bottom: 30px; }
+  padding-bottom: 30px;
+  padding-left: 10px; }
 
 h3 {
   color: black;
